@@ -4,7 +4,7 @@ Simple web scraper built using the Python library 'Scrapy'
 ## Running the crawler
 Firstly, clone this repository into your own directory of choice
 ```bash
-$ scrapy crawl redditbot 
+$ git clone https://github.com/ben-charlton/python-scraper.git
 ```
 
 Then, run the spider with the following command
