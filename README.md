@@ -1,6 +1,12 @@
 # python-scraper
 Simple web scraper built using the Python library 'Scrapy'
 
+### Dependencies
+You will need Python2+ and the Scrapy module
+```bash
+$ pip install scrapy
+```
+
 ## Running the crawler
 Firstly, clone this repository into your own directory of choice
 ```bash
