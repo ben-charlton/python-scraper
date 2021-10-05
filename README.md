@@ -2,7 +2,12 @@
 Simple web scraper built using the Python library 'Scrapy'
 
 ## Running the crawler
-Run the spider with the following command
+Firstly, clone this repository into your own directory of choice
+```bash
+$ scrapy crawl redditbot 
+```
+
+Then, run the spider with the following command
 ```bash
 $ scrapy crawl redditbot 
 ```
