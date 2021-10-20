@@ -5,6 +5,8 @@
 
 import scrapy
 from scrapy.item import Item, Field
+import json
+    
 
 class IndeedItem(Item):
     # define the fields for your item here like:
@@ -19,4 +21,9 @@ class IndeedItem(Item):
     source_page_body = Field()
     crawl_url = Field()
     crawl_timestamp = Field()
+
+    def toJSON(self):
+        return json.dumps(self, default=lambda o: o.__dict__, 
+            sort_keys=True, indent=4)
+
     pass
